@@ -15,6 +15,7 @@ To configure the machine, use the following:
 
 - Test that installed programs actually installed in run.sh
 - Check to see if salt-minion service is running or not
+- More testing on update-alternatives and setting Vim as the sudoeditor
 
 
 Created by Elmo Rohula
