@@ -20,7 +20,7 @@ fi
 
 
 echo "Set agent ID and master IP for Salt"
-echo "Please give an ID for you agent"
+echo "Please give an ID for you agent:"
 read agentid
 
 echo "Please give master IP:"
@@ -28,3 +28,6 @@ read masterip
 
 echo "id: $agentid" | sudo tee /etc/salt/minion 
 echo "master: $masterip" | sudo tee -a /etc/salt/minion
+
+echo "Restarting salt-minion"
+sudo systemctl restart salt-minion.service
