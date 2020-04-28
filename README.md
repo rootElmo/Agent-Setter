@@ -4,7 +4,9 @@ Small script for configuring Xubuntu salt agents with personalized settings.
 
 ## Usage
 
-To apply settings, use the following:
+If using something like Oracle VM VirtualBox for salt agents, remember to use Bridged Adapter in the Network settings!
+
+To configure the machine, use the following:
 
 	wget https://raw.githubusercontent.com/rootElmo/Agent-Setter/master/run.sh
 	bash run.sh
