@@ -6,7 +6,7 @@ Small script for configuring Xubuntu salt agents with personalized settings.
 
 To apply settings, use the following:
 
-	wget https://raw.githubuser.content.com/rootElmo/Agent-Setter/master/run.sh
+	wget https://raw.githubusercontent.com/rootElmo/Agent-Setter/master/run.sh
 	bash run.sh
 
 

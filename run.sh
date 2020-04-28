@@ -26,5 +26,5 @@ read agentid
 echo "Please give master IP:"
 read masterip
 
-sudo echo "id: $agentid" > /etc/salt/minion
-sudo echo "master: $masterip" >> t/etc/salt/minion
+echo "id: $agentid" | sudo tee /etc/salt/minion 
+echo "master: $masterip" | sudo tee -a /etc/salt/minion
