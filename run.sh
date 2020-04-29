@@ -3,9 +3,9 @@
 # Created by Elmo Rohula
 
 
-echo "Installing Git, Salt, and Vim"
+echo "Installing Git, Salt, openssh-server, and Vim"
 sudo apt-get update
-sudo apt-get install git salt-minion vim
+sudo apt-get install git salt-minion vim openssh-server
 
 
 echo "Setting Vim as sudoeditor"
